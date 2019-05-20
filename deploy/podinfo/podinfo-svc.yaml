@@ -13,5 +13,3 @@ spec:
       name: http
   selector:
     app: podinfo
-
-
