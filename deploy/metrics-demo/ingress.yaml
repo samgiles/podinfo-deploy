@@ -8,11 +8,13 @@ metadata:
   namespace: dev
 spec:
   rules:
-  - http:
+  - host: training-user-11.training.weave.works
+    http:
       paths:
       - backend:
           serviceName: metrics-demo
           servicePort: 3000
         path: /mighty-fine
+
 status:
   loadBalancer: {}
